@@ -1,4 +1,4 @@
-# Neural_Network_Charity_Analysis
+# Neural Network Charity Analysis
 
 ## Overview of the analysis:
 Using deep learning methods, analyze a CSV containing over 34000 organizations that received funding from Alphabet Soup to create a model that predicts high risk organizations with over 75% accuracy
@@ -34,3 +34,4 @@ Optimization was conducted by training and evaluating four additional deep learn
 
 
 ## Summary
+None of the models achieved the target performance despite trimming of the outliers or optimization of the parameters. Recommendation: preprocess data to remove unnecessary columns and reduce noise, attempt binning values in `['ASK_AMT']`.
